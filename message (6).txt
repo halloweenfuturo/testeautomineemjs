@@ -1,0 +1,107 @@
+player.onChat("buracodometeorodepegasus", function () {
+    for (let index = 0; index < 16; index++) {
+        agent.teleport(world(-165, 64, 228), NORTH)
+        for (let index = 0; index < 15; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(FORWARD, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 15; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(RIGHT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(LEFT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(RIGHT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(LEFT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(RIGHT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(LEFT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(RIGHT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(LEFT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(RIGHT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(LEFT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(RIGHT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(LEFT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(RIGHT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(LEFT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(RIGHT, 1)
+        }
+        agent.move(DOWN, 1)
+        for (let index = 0; index < 14; index++) {
+            agent.destroy(DOWN)
+            agent.collectAll()
+            agent.move(LEFT, 1)
+        }
+        agent.teleport(world(-184, 64, 247), WEST)
+        agent.dropAll(FORWARD)
+    }
